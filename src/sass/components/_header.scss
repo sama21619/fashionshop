@@ -40,6 +40,13 @@
         img {
             height: 70px;
         }
+
+	@include mobile {
+            img
+            {
+                height: $header-mobile-height;
+            }
+
     }
 
     &__menu {
